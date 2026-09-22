@@ -7,7 +7,7 @@ This repository provides reproducible implementations to generate synthetic spat
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 - [`spatiosocial_network_generator.py`](spatiosocial_network_generator.py):
   - Generates synthetic networks based on the generative model (Section I.A, Appendix A.1).
@@ -29,7 +29,7 @@ This repository provides reproducible implementations to generate synthetic spat
 
 ---
 
-## 📊 Datasets & Data Availability
+##  Datasets & Data Availability
 
 The empirical analyses in this work rely on open-access, publicly available datasets:
 
@@ -50,7 +50,7 @@ The empirical analyses in this work rely on open-access, publicly available data
 
 ---
 
-## ⚙️ Installation & Requirements
+##  Installation & Requirements
 
 Ensure Python 3.9+ is installed along with the required scientific computing dependencies:
 
@@ -60,7 +60,7 @@ pip install numpy scipy torch pandas
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ### 1. Generate a Synthetic Spatio-Functional Network
 ```python
@@ -110,7 +110,7 @@ print(f"Ensemble Mean scale r: {ens['r_mean']:.4f} +/- {ens['r_se']:.4f}")
 
 ---
 
-## 📖 Citation
+##  Citation
 
 In case of use, please cite the following paper:
 
